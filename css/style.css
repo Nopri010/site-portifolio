@@ -102,28 +102,33 @@ body{
       margin-inline: auto;
       border-radius: 10px;
     }
-    .hiddeln-top{
+    .hidden{
       opacity: 0;
       filter: blur(15px);
       transform: translateX(-100%);
       transition: all 1.5s;
-    }
-    .hidden-left{
-      opacity: 0;
-      filter: blur(15px);
-      transform: translateX(-100%);
-      transition: all 1.5s;
-    }
+    }  
     .show{
       opacity: 1;
       filter: blur(0);
       transform: translateX(0);
       transition: all 1.5s;
     }
-
+    .titulo{
+      padding-bottom: 5px;
+      font-family: "Indie Flower", cursive;
+      font-size: 40px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      margin-inline: auto;
+      border-radius: 10px;
+      border-bottom: 5px #393d42   solid;
+      width: 33%;
+    }
+    /*Contatos*/
     .icones{
       display: flex;
-      gap: 20px;
       justify-content: center;
       width: 100%;
     }
@@ -133,6 +138,9 @@ body{
       background-color: #393d42;
       border-radius: 10px;
       margin: 5px;
+    }
+    .icones :nth-child(1){
+      transition: 600MS;
     }
     .icones :nth-child(2){
       transition:600ms ;
@@ -146,6 +154,45 @@ body{
     .icones :nth-child(5){
       transition:1200ms ;
     }
-    .icones :nth-child(6){
-      transition:1400ms ;
+    .texto p{
+      font-size: 22px;
+      text-align: center;
+      font-family: "Josefin Slab", serif;
     }
+
+/*Cards*/
+    .card {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+      width: 250px;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .card h2 {
+      font-size: 24px;
+      color: #ffffff;
+      margin-bottom: 10px;
+  }
+
+  .card p {
+      font-size: 16px;
+      color: #ffffff;
+  }
+  .card li{
+    color: white;
+  }
+  .container-card {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+  .baixo{
+    margin-top: 30px;
+  }
+  .borda{
+    border: 3px white solid;
+    border-radius: 0px;
+  }

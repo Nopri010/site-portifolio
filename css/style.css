@@ -16,18 +16,20 @@ body{
     color: white;
     text-shadow: 4px 4px 9px rgba(0, 0, 0, 1);
 }
+  nav{
+    margin-top: -10px;
+  }
+  .texto-banner h1 {
+      font-size: 60px;
+      text-align: center;
+      font-family: "Indie Flower", cursive;
+  }
 
-.texto-banner h1 {
-    font-size: 60px;
-    text-align: center;
-    font-family: "Indie Flower", cursive;
-}
-
-.texto-banner p {
-    font-size: 22px;
-    text-align: center;
-    font-family: "Josefin Slab", serif;
-}
+  .texto-banner p {
+      font-size: 22px;
+      text-align: center;
+      font-family: "Josefin Slab", serif;
+  }
 
 
   .banner{
